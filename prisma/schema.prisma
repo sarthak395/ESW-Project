@@ -17,3 +17,15 @@ model User {
   updatedAt     DateTime  @updatedAt @map(name: "updated_at")
   @@map(name: "users")
 }
+
+model Thingspeakdata{
+  id            String     @default(cuid()) @id
+  Light         String?
+  CO2           String?
+  Temperature   String?
+  Humidity      String?
+  Soil          String?
+  createdAt     String?
+  updatedAt     DateTime  @updatedAt @map(name: "updated_at")
+  @@map(name: "thingspeakdatas")
+}

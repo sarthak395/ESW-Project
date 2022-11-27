@@ -1,7 +1,10 @@
 import '../styles/globals.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import { useEffect, useState } from 'react'
+import Script from 'next/script'
+import BIRDS from "vanta/dist/vanta.birds.min"
+import * as THREE from "three"
+import { useState, useRef, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { data } from 'autoprefixer'
 

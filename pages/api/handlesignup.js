@@ -12,6 +12,7 @@ export default async function handler(req, res) {
               password:datajson.password
             },
           })
+          res.status(200).json({success:true})
     }
     else
     {

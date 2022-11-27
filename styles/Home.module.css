@@ -1,7 +1,12 @@
 .container {
   padding: 0 2rem;
 }
-
+.vanta{
+  min-height: 300px;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
 .gradient {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
